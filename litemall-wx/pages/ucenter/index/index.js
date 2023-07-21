@@ -106,17 +106,18 @@ Page({
       });
     };
   },
-  goGroupon() {
-    if (this.data.hasLogin) {
-      wx.navigateTo({
-        url: "/pages/groupon/myGroupon/myGroupon"
-      });
-    } else {
-      wx.navigateTo({
-        url: "/pages/auth/login/login"
-      });
-    };
-  },
+  // 去掉我的拼团功能
+  // goGroupon() {
+  //   if (this.data.hasLogin) {
+  //     wx.navigateTo({
+  //       url: "/pages/groupon/myGroupon/myGroupon"
+  //     });
+  //   } else {
+  //     wx.navigateTo({
+  //       url: "/pages/auth/login/login"
+  //     });
+  //   };
+  // },
   goCollect() {
     if (this.data.hasLogin) {
       wx.navigateTo({

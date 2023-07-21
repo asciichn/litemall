@@ -93,12 +93,14 @@ page {
   /* border: 1px solid black; */
   height: 140rpx;
   display: flex;
-  justify-content: center;
+  background: #fff;
+  justify-content: flex-start;
   align-items: center;
 }
 
+
 .user_column_item {
-  width: 30%;
+  width: 20%;
   height: 140rpx;
   background: #fff;
   text-align: center;
@@ -136,13 +138,15 @@ page {
 }
 
 .user_column_item_phone {
-  width: 30%;
+  width: 20%;
+  padding: 0rpx;
   height: 140rpx;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   float: left;
   background: #fff;
   border-radius: 0;
